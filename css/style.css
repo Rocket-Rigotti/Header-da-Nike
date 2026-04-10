@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 *
 {
      padding: 0;
@@ -10,15 +11,15 @@
      font-size: 12px;
 }
 
-header
+div
 
 {
-   width: 1580px;
-   padding: 10px 40px;
-   display: flex;
-   gap: 40px;
-   justify-content: space-between;
-   align-items: center;
+    width: 1580px;
+    padding: 10px 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
    
 
 
@@ -28,28 +29,58 @@ header
 .menu-top
 
 {
-   display: flex;
-   gap: 30px;
-   list-style: none;
-
-
+    display: flex;
+    gap: 30px;
+    list-style: none;  
+   
 }
 
 .item-menu:hover
 
 {
 
-   font-weight: 500;
-   cursor: pointer;
+    font-weight: 500;
+    cursor: pointer;
 
 
 }
 
-.img
+
+
+
+.menu-metade
 
 {
-  
-  display: flex;
-  gap: 20px;
+    display: flex;
+    list-style: none; 
+    width: 1580px;
+    height: 65px;
+    gap: 30px; 
+    align-items: center;
+    justify-content: center;
+   
+    
+
+
+   
+
+   
 
 }
+
+.item-metade:hover
+
+{
+
+    font-weight: 500;
+    cursor: pointer;
+    
+   
+   
+   
+
+
+}
+
+
+
