@@ -30,7 +30,7 @@ div
 
 {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     list-style: none;  
    
 }
@@ -79,6 +79,13 @@ div
    
    
 
+
+}
+
+.barra
+
+{
+   width: 0px 1px 0px 0px;
 
 }
 
