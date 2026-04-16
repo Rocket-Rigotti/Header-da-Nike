@@ -2,145 +2,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/*    PARTE CIMA   */
+
 *
 {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
-     font-family: "Inter", sans-serif;
-     font-size: 12px;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+      font-size: 12px;
 }
 
 div
 
 {
-     width: 1580px;
-     padding: 10px 40px;
-     display: flex;
-     gap: 40px;
-     justify-content: space-between;
-     align-items: center;
+      width: 1580px;
+      padding: 10px 40px;
+      display: flex;
+      gap: 40px;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.Logos
+
+{
+      display: flex;
+      gap: 20px;
 }
 
 .menu-top
 
 {
-     display: flex;
-     gap: 10px;
-     list-style: none;  
+      display: flex;
+      gap: 10px;
+      list-style: none;  
 }
 
 .item-menu:hover
 
 {
-     font-weight: 500;
-     cursor: pointer;
+      font-weight: 500;
+      cursor: pointer;
 }
+
+
+
+/*       PARTE METADE          */
+
+
 .menu-metade
 
 {
-     display: flex;
-     list-style: none; 
-     width: 1580px;
-     height: 65px;
-     gap: 30px; 
-     align-items: center;
-     justify-content: center;
+      display: flex;
+      list-style: none; 
+      width: 1580px;
+      height: 65px;
+      gap: 30px; 
+      align-items: center;
+      justify-content: center;
+}
+
+.item-metade
+
+{
+      font-size: 15px;
+      font-weight: bold;
 }
 
 .item-metade:hover
 
-{
-     font-weight: 500;
-     cursor: pointer;
+{    
+      cursor: pointer;
 }
 
 .icones-metade
 
 {
-     cursor: pointer;
-     display: flex;
-     gap: 20px;
+      cursor: pointer;
+      display: flex;
+      gap: 20px;
 }
+
+
+/*    PARTE FINAL   */
+
 
 .barra-final
 
 {
-     justify-content: center;
+      justify-content: center;
 }
-
-
-
 
 .final
 
 {
-     display: flex;
-     list-style: none;
-     gap: 5px;
-     display: flex;
-     justify-content: center;
-     justify-items: center;
+      display: flex;
+      list-style: none;
+      gap: 5px;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+}
+
+.itens-final2
+
+{
+      font-size: 15px;
+      
 }
 
 .itens-final1
 
 {
-     font-family: "ROBOTO";
-     
+      font-family: "ROBOTO";
+      font-weight: bold;
+      font-size: 16px;
 }
 
 .itens-final3:hover
 
 {
-     font-weight: 500;
-     cursor: pointer;
+      font-weight: 500;
+      cursor: pointer;
 }
 
 .itens-final3
 {
-     text-decoration: underline
+      text-decoration: underline;
+      font-size: 14px;
+     
 }
-
-
-
-
-
-
-
-
-
-
 
 .icone-shoes
 
 {
-     gap: 5px;
-     margin: 2px;
+      gap: 5px;
+      margin: 2px;
 }
 
 .seta1:hover
 
 {
-     cursor: pointer;
+      cursor: pointer;
 }
 
 .seta2:hover
 
 {
-     cursor: pointer;
+      cursor: pointer;
 }
 
 .seta1
 
 {
-     margin-right: 170px;
+      margin-right: 170px;
 }
 
 .seta2
 
 {
-     margin-left: 170px;
+      margin-left: 170px;
 }
  
     
